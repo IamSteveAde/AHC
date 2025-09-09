@@ -264,9 +264,9 @@ section {
   right: 0;
 }
 .logos{
-  width: 200px !important;   /* force bigger width */
-  height: auto !important;   /* keep aspect ratio */
-  max-width: none !important; /* override Bootstrap's responsive img rules */
+  width: 200px;   /* force bigger width */
+  height: auto ;   /* keep aspect ratio */
+  max-width: none ; /* override Bootstrap's responsive img rules */
   object-fit: contain;
 }
 
@@ -1910,6 +1910,9 @@ section {
   .hero .info {
     padding: 0 50px;
   }
+  .cos{
+    width: 100%;
+  }
 }
 
 .hero .info h2 {
@@ -1937,6 +1940,24 @@ section {
 @media (max-width: 768px) {
   .hero .info h2 {
     font-size: 36px;
+  }
+  .logos{
+    width: 150px;
+    margin-left: 30px;
+  }
+  section{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section-header h2{
+    font-size: 26px;
+    
+  }
+  .section-header{
+    text-align: center;
+  }
+  .spe{
+    font-size: 10px;
   }
 }
 
@@ -1971,6 +1992,10 @@ section {
   .hero .carousel-control-prev {
     padding-left: 15px;
   }
+  .cos{
+    width: 100%;
+  }
+  
 }
 
 .hero .carousel-control-next {
@@ -2986,6 +3011,15 @@ section {
   .cta-section p {
     font-size: 1rem;
   }
+  .faq{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .portfolio-section{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+ 
 }
 body{
   scroll-behavior: smooth;
