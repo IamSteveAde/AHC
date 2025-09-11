@@ -3034,3 +3034,124 @@ section {
 body{
   scroll-behavior: smooth;
 }
+/* Form Container */
+#contact-form {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Heading */
+#contact-form h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #00cc66;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Paragraph */
+#contact-form p {
+  font-size: 15px;
+  color: #666;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+/* Input Fields */
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 14px 18px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 15px;
+  color: #333;
+  transition: all 0.3s ease;
+  background: #fafafa;
+  box-sizing: border-box;
+}
+
+/* Input focus effect */
+#contact-form input:focus,
+#contact-form textarea:focus {
+  border-color: #00cc66;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(99, 255, 120, 0.3);
+  outline: none;
+  transform: scale(1.02);
+}
+
+/* Textarea */
+#contact-form textarea {
+  resize: none;
+  min-height: 140px;
+}
+
+/* Button */
+#contact-form button {
+  display: inline-block;
+  background: linear-gradient(135deg, #63ff92, #4cc984);
+  color: #414141;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 6px 20px rgba(99, 255, 151, 0.4);
+}
+
+/* Button hover */
+#contact-form button:hover {
+  background: linear-gradient(135deg, #4cc969, #40993a);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(76, 201, 120, 0.5);
+}
+
+/* Button active */
+#contact-form button:active {
+  transform: scale(0.97);
+}
+
+/* Messages */
+#contact-form .loading {
+  font-size: 14px;
+  color: #00cc66;
+  font-weight: 500;
+}
+
+#contact-form .sent-message {
+  font-size: 15px;
+  font-weight: 500;
+  color: #2ecc71;
+  margin-top: 15px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+#contact-form .error-message {
+  font-size: 15px;
+  font-weight: 500;
+  color: #e74c3c;
+  margin-top: 15px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
