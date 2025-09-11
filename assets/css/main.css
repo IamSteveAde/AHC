@@ -3162,7 +3162,7 @@ body{
   padding: 100px 20px;
   overflow: hidden;
   position: relative;
-  font-family: 'Poppins', sans-serif;
+
 }
 
 .team-section::before {
@@ -3188,7 +3188,7 @@ body{
   z-index: 1;
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
+  
 }
 
 .section-title {
